@@ -1,0 +1,511 @@
+### YamlMime:ManagedReference
+items:
+- uid: ZooParc.Bl.Controler.SaveKindAnimal
+  commentId: T:ZooParc.Bl.Controler.SaveKindAnimal
+  id: SaveKindAnimal
+  parent: ZooParc.Bl.Controler
+  children:
+  - ZooParc.Bl.Controler.SaveKindAnimal.#ctor(ZooParc.Bl.Model.KindOfAnimal)
+  - ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal
+  - ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary(System.String)
+  - ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SaveKindAnimal
+  nameWithType: SaveKindAnimal
+  fullName: ZooParc.Bl.Controler.SaveKindAnimal
+  type: Class
+  source:
+    id: SaveKindAnimal
+    path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\SaveKindAnimal.cs
+    startLine: 10
+  assemblies:
+  - ZooParc.Bl
+  namespace: ZooParc.Bl.Controler
+  summary: "\nСохранение вида животного\n"
+  example: []
+  syntax:
+    content: public class SaveKindAnimal
+    content.vb: Public Class SaveKindAnimal
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal
+  commentId: P:ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal
+  id: KindOfAnimal
+  parent: ZooParc.Bl.Controler.SaveKindAnimal
+  langs:
+  - csharp
+  - vb
+  name: KindOfAnimal
+  nameWithType: SaveKindAnimal.KindOfAnimal
+  fullName: ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal
+  type: Property
+  source:
+    id: KindOfAnimal
+    path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\SaveKindAnimal.cs
+    startLine: 15
+  assemblies:
+  - ZooParc.Bl
+  namespace: ZooParc.Bl.Controler
+  summary: "\nВид животного\n"
+  example: []
+  syntax:
+    content: public KindOfAnimal KindOfAnimal { get; set; }
+    parameters: []
+    return:
+      type: ZooParc.Bl.Model.KindOfAnimal
+    content.vb: Public Property KindOfAnimal As KindOfAnimal
+  overload: ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: ZooParc.Bl.Controler.SaveKindAnimal.#ctor(ZooParc.Bl.Model.KindOfAnimal)
+  commentId: M:ZooParc.Bl.Controler.SaveKindAnimal.#ctor(ZooParc.Bl.Model.KindOfAnimal)
+  id: '#ctor(ZooParc.Bl.Model.KindOfAnimal)'
+  parent: ZooParc.Bl.Controler.SaveKindAnimal
+  langs:
+  - csharp
+  - vb
+  name: SaveKindAnimal(KindOfAnimal)
+  nameWithType: SaveKindAnimal.SaveKindAnimal(KindOfAnimal)
+  fullName: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindAnimal(ZooParc.Bl.Model.KindOfAnimal)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\SaveKindAnimal.cs
+    startLine: 21
+  assemblies:
+  - ZooParc.Bl
+  namespace: ZooParc.Bl.Controler
+  summary: "\nКонструктор\n"
+  example: []
+  syntax:
+    content: public SaveKindAnimal(KindOfAnimal kindOfAnimal)
+    parameters:
+    - id: kindOfAnimal
+      type: ZooParc.Bl.Model.KindOfAnimal
+      description: Вид животного
+    content.vb: Public Sub New(kindOfAnimal As KindOfAnimal)
+  overload: ZooParc.Bl.Controler.SaveKindAnimal.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary(System.String)
+  commentId: M:ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary(System.String)
+  id: SaveKindOfAnimalBinnary(System.String)
+  parent: ZooParc.Bl.Controler.SaveKindAnimal
+  langs:
+  - csharp
+  - vb
+  name: SaveKindOfAnimalBinnary(String)
+  nameWithType: SaveKindAnimal.SaveKindOfAnimalBinnary(String)
+  fullName: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary(System.String)
+  type: Method
+  source:
+    id: SaveKindOfAnimalBinnary
+    path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\SaveKindAnimal.cs
+    startLine: 30
+  assemblies:
+  - ZooParc.Bl
+  namespace: ZooParc.Bl.Controler
+  summary: "\nСохранение в бинарном виде\n"
+  example: []
+  syntax:
+    content: public void SaveKindOfAnimalBinnary(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: Путь
+    content.vb: Public Sub SaveKindOfAnimalBinnary(path As String)
+  overload: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt(System.String)
+  commentId: M:ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt(System.String)
+  id: SaveKindOfAnimalTxt(System.String)
+  parent: ZooParc.Bl.Controler.SaveKindAnimal
+  langs:
+  - csharp
+  - vb
+  name: SaveKindOfAnimalTxt(String)
+  nameWithType: SaveKindAnimal.SaveKindOfAnimalTxt(String)
+  fullName: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt(System.String)
+  type: Method
+  source:
+    id: SaveKindOfAnimalTxt
+    path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\SaveKindAnimal.cs
+    startLine: 42
+  assemblies:
+  - ZooParc.Bl
+  namespace: ZooParc.Bl.Controler
+  summary: "\nСохранение в текстовом виде\n"
+  example: []
+  syntax:
+    content: public void SaveKindOfAnimalTxt(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: Путь
+    content.vb: Public Sub SaveKindOfAnimalTxt(path As String)
+  overload: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: ZooParc.Bl.Controler
+  commentId: N:ZooParc.Bl.Controler
+  name: ZooParc.Bl.Controler
+  nameWithType: ZooParc.Bl.Controler
+  fullName: ZooParc.Bl.Controler
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal*
+  commentId: Overload:ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal
+  name: KindOfAnimal
+  nameWithType: SaveKindAnimal.KindOfAnimal
+  fullName: ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal
+- uid: ZooParc.Bl.Model.KindOfAnimal
+  commentId: T:ZooParc.Bl.Model.KindOfAnimal
+  parent: ZooParc.Bl.Model
+  name: KindOfAnimal
+  nameWithType: KindOfAnimal
+  fullName: ZooParc.Bl.Model.KindOfAnimal
+- uid: ZooParc.Bl.Model
+  commentId: N:ZooParc.Bl.Model
+  name: ZooParc.Bl.Model
+  nameWithType: ZooParc.Bl.Model
+  fullName: ZooParc.Bl.Model
+- uid: ZooParc.Bl.Controler.SaveKindAnimal.#ctor*
+  commentId: Overload:ZooParc.Bl.Controler.SaveKindAnimal.#ctor
+  name: SaveKindAnimal
+  nameWithType: SaveKindAnimal.SaveKindAnimal
+  fullName: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindAnimal
+- uid: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary*
+  commentId: Overload:ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary
+  name: SaveKindOfAnimalBinnary
+  nameWithType: SaveKindAnimal.SaveKindOfAnimalBinnary
+  fullName: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt*
+  commentId: Overload:ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt
+  name: SaveKindOfAnimalTxt
+  nameWithType: SaveKindAnimal.SaveKindOfAnimalTxt
+  fullName: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt

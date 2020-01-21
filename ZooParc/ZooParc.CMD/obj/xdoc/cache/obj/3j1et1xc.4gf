@@ -1,0 +1,10 @@
+id: ZooParc.CMD
+language: CSharp
+name:
+  Default: ZooParc.CMD
+qualifiedName:
+  Default: ZooParc.CMD
+type: Assembly
+modifiers: {}
+items: []
+references: {}

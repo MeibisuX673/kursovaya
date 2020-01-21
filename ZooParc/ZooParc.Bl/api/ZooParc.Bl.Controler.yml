@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: ZooParc.Bl.Controler
+  commentId: N:ZooParc.Bl.Controler
+  id: ZooParc.Bl.Controler
+  children:
+  - ZooParc.Bl.Controler.ComplexController
+  - ZooParc.Bl.Controler.KindOfAnimalController
+  - ZooParc.Bl.Controler.SaveKindAnimal
+  langs:
+  - csharp
+  - vb
+  name: ZooParc.Bl.Controler
+  nameWithType: ZooParc.Bl.Controler
+  fullName: ZooParc.Bl.Controler
+  type: Namespace
+  assemblies:
+  - ZooParc.Bl
+references:
+- uid: ZooParc.Bl.Controler.ComplexController
+  commentId: T:ZooParc.Bl.Controler.ComplexController
+  name: ComplexController
+  nameWithType: ComplexController
+  fullName: ZooParc.Bl.Controler.ComplexController
+- uid: ZooParc.Bl.Controler.KindOfAnimalController
+  commentId: T:ZooParc.Bl.Controler.KindOfAnimalController
+  name: KindOfAnimalController
+  nameWithType: KindOfAnimalController
+  fullName: ZooParc.Bl.Controler.KindOfAnimalController
+- uid: ZooParc.Bl.Controler.SaveKindAnimal
+  commentId: T:ZooParc.Bl.Controler.SaveKindAnimal
+  name: SaveKindAnimal
+  nameWithType: SaveKindAnimal
+  fullName: ZooParc.Bl.Controler.SaveKindAnimal

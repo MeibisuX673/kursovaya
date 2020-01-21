@@ -1,0 +1,234 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Alex/source/repos/ZooParc/ZooParc.Bl",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZooParc.Bl.Controler.ComplexController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZooParc.Bl.Controler.ComplexController.html",
+          "hash": "Vu48iI+JDOZ8EF7/601mXw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZooParc.Bl.Controler.KindOfAnimalController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZooParc.Bl.Controler.KindOfAnimalController.html",
+          "hash": "U3K/3MHRGPJHYVPmrY5Gpw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZooParc.Bl.Controler.SaveKindAnimal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZooParc.Bl.Controler.SaveKindAnimal.html",
+          "hash": "joIG9uym5MecaCbY4xiOYw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZooParc.Bl.Controler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZooParc.Bl.Controler.html",
+          "hash": "BtOznLYcTMevWTTVS7DYRA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZooParc.Bl.Model.AnimalFamily.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZooParc.Bl.Model.AnimalFamily.html",
+          "hash": "R0MRLi61lVfxpdpscF2flA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZooParc.Bl.Model.Complex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZooParc.Bl.Model.Complex.html",
+          "hash": "ROZ2gEY76idhpIiI64VPtA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZooParc.Bl.Model.KindOfAnimal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZooParc.Bl.Model.KindOfAnimal.html",
+          "hash": "apU6plh+HsL4aQPaVr3AjQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZooParc.Bl.Model.SaveComplex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZooParc.Bl.Model.SaveComplex.html",
+          "hash": "D0+u2q/lU6dIgxqkMhq58g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZooParc.Bl.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZooParc.Bl.Model.html",
+          "hash": "SOqMQwdYHjGu/ddWnrKQvg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "Qnr6fTyWUfWTG2J8DVnvLQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "BAxgCWR6A3zlgPyAYzvGDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "QHiVh6mBmvXeVp00u/6arw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "/UwCv6ydclJ0MB2lAqOR2A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 9
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

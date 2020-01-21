@@ -1,0 +1,5 @@
+C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\bin\Debug\ZooParc.Bl.dll
+C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\bin\Debug\ZooParc.Bl.pdb
+C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\obj\Debug\ZooParc.Bl.csprojAssemblyReference.cache
+C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\obj\Debug\ZooParc.Bl.dll
+C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\obj\Debug\ZooParc.Bl.pdb

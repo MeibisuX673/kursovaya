@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: ZooParc.Bl.Model
+  commentId: N:ZooParc.Bl.Model
+  id: ZooParc.Bl.Model
+  children:
+  - ZooParc.Bl.Model.AnimalFamily
+  - ZooParc.Bl.Model.Complex
+  - ZooParc.Bl.Model.KindOfAnimal
+  - ZooParc.Bl.Model.SaveComplex
+  langs:
+  - csharp
+  - vb
+  name: ZooParc.Bl.Model
+  nameWithType: ZooParc.Bl.Model
+  fullName: ZooParc.Bl.Model
+  type: Namespace
+  assemblies:
+  - ZooParc.Bl
+references:
+- uid: ZooParc.Bl.Model.AnimalFamily
+  commentId: T:ZooParc.Bl.Model.AnimalFamily
+  parent: ZooParc.Bl.Model
+  name: AnimalFamily
+  nameWithType: AnimalFamily
+  fullName: ZooParc.Bl.Model.AnimalFamily
+- uid: ZooParc.Bl.Model.Complex
+  commentId: T:ZooParc.Bl.Model.Complex
+  parent: ZooParc.Bl.Model
+  name: Complex
+  nameWithType: Complex
+  fullName: ZooParc.Bl.Model.Complex
+- uid: ZooParc.Bl.Model.KindOfAnimal
+  commentId: T:ZooParc.Bl.Model.KindOfAnimal
+  parent: ZooParc.Bl.Model
+  name: KindOfAnimal
+  nameWithType: KindOfAnimal
+  fullName: ZooParc.Bl.Model.KindOfAnimal
+- uid: ZooParc.Bl.Model.SaveComplex
+  commentId: T:ZooParc.Bl.Model.SaveComplex
+  name: SaveComplex
+  nameWithType: SaveComplex
+  fullName: ZooParc.Bl.Model.SaveComplex
+- uid: ZooParc.Bl.Model
+  commentId: N:ZooParc.Bl.Model
+  name: ZooParc.Bl.Model
+  nameWithType: ZooParc.Bl.Model
+  fullName: ZooParc.Bl.Model

@@ -1,0 +1,2744 @@
+id: ZooParc.Bl
+language: CSharp
+name:
+  Default: ZooParc.Bl
+qualifiedName:
+  Default: ZooParc.Bl
+type: Assembly
+modifiers: {}
+items:
+- id: ZooParc.Bl.Controler
+  commentId: N:ZooParc.Bl.Controler
+  language: CSharp
+  name:
+    CSharp: ZooParc.Bl.Controler
+    VB: ZooParc.Bl.Controler
+  nameWithType:
+    CSharp: ZooParc.Bl.Controler
+    VB: ZooParc.Bl.Controler
+  qualifiedName:
+    CSharp: ZooParc.Bl.Controler
+    VB: ZooParc.Bl.Controler
+  type: Namespace
+  assemblies:
+  - ZooParc.Bl
+  modifiers: {}
+  items:
+  - id: ZooParc.Bl.Controler.ComplexController
+    commentId: T:ZooParc.Bl.Controler.ComplexController
+    language: CSharp
+    name:
+      CSharp: ComplexController
+      VB: ComplexController
+    nameWithType:
+      CSharp: ComplexController
+      VB: ComplexController
+    qualifiedName:
+      CSharp: ZooParc.Bl.Controler.ComplexController
+      VB: ZooParc.Bl.Controler.ComplexController
+    type: Class
+    assemblies:
+    - ZooParc.Bl
+    namespace: ZooParc.Bl.Controler
+    source:
+      id: ComplexController
+      path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\ComplexController.cs
+      startLine: 10
+    summary: "\nКонтроллер комплекса\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class ComplexController
+        VB: Public Class ComplexController
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ZooParc.Bl.Controler.ComplexController.PathBin
+      commentId: P:ZooParc.Bl.Controler.ComplexController.PathBin
+      language: CSharp
+      name:
+        CSharp: PathBin
+        VB: PathBin
+      nameWithType:
+        CSharp: ComplexController.PathBin
+        VB: ComplexController.PathBin
+      qualifiedName:
+        CSharp: ZooParc.Bl.Controler.ComplexController.PathBin
+        VB: ZooParc.Bl.Controler.ComplexController.PathBin
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Controler
+      source:
+        id: PathBin
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\ComplexController.cs
+        startLine: 17
+      summary: "\nПуть бинарного файла\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string PathBin { get; set; }
+          VB: Public Property PathBin As String
+        parameters: []
+        return:
+          type: System.String
+      overload: ZooParc.Bl.Controler.ComplexController.PathBin*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: ZooParc.Bl.Controler.ComplexController.PathTxt
+      commentId: P:ZooParc.Bl.Controler.ComplexController.PathTxt
+      language: CSharp
+      name:
+        CSharp: PathTxt
+        VB: PathTxt
+      nameWithType:
+        CSharp: ComplexController.PathTxt
+        VB: ComplexController.PathTxt
+      qualifiedName:
+        CSharp: ZooParc.Bl.Controler.ComplexController.PathTxt
+        VB: ZooParc.Bl.Controler.ComplexController.PathTxt
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Controler
+      source:
+        id: PathTxt
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\ComplexController.cs
+        startLine: 21
+      summary: "\nПуть текстового файла\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string PathTxt { get; set; }
+          VB: Public Property PathTxt As String
+        parameters: []
+        return:
+          type: System.String
+      overload: ZooParc.Bl.Controler.ComplexController.PathTxt*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: ZooParc.Bl.Controler.ComplexController.Complex
+      commentId: P:ZooParc.Bl.Controler.ComplexController.Complex
+      language: CSharp
+      name:
+        CSharp: Complex
+        VB: Complex
+      nameWithType:
+        CSharp: ComplexController.Complex
+        VB: ComplexController.Complex
+      qualifiedName:
+        CSharp: ZooParc.Bl.Controler.ComplexController.Complex
+        VB: ZooParc.Bl.Controler.ComplexController.Complex
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Controler
+      source:
+        id: Complex
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\ComplexController.cs
+        startLine: 25
+      summary: "\nКомплекс\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Complex Complex { get; set; }
+          VB: Public Property Complex As Complex
+        parameters: []
+        return:
+          type: ZooParc.Bl.Model.Complex
+      overload: ZooParc.Bl.Controler.ComplexController.Complex*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: ZooParc.Bl.Controler.ComplexController.#ctor(System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)
+      commentId: M:ZooParc.Bl.Controler.ComplexController.#ctor(System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)
+      language: CSharp
+      name:
+        CSharp: ComplexController(String, Int32, Boolean, Boolean, Int32)
+        VB: ComplexController(String, Int32, Boolean, Boolean, Int32)
+      nameWithType:
+        CSharp: ComplexController.ComplexController(String, Int32, Boolean, Boolean, Int32)
+        VB: ComplexController.ComplexController(String, Int32, Boolean, Boolean, Int32)
+      qualifiedName:
+        CSharp: ZooParc.Bl.Controler.ComplexController.ComplexController(System.String, System.Int32, System.Boolean, System.Boolean, System.Int32)
+        VB: ZooParc.Bl.Controler.ComplexController.ComplexController(System.String, System.Int32, System.Boolean, System.Boolean, System.Int32)
+      type: Constructor
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Controler
+      source:
+        id: .ctor
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\ComplexController.cs
+        startLine: 34
+      summary: "\nСоздание Комплекса\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public ComplexController(string complex_name, int number_room, bool water, bool heating, int count_animal)
+          VB: Public Sub New(complex_name As String, number_room As Integer, water As Boolean, heating As Boolean, count_animal As Integer)
+        parameters:
+        - id: complex_name
+          type: System.String
+          description: Название комплекса
+        - id: number_room
+          type: System.Int32
+          description: Номер помещения
+        - id: water
+          type: System.Boolean
+          description: Наличие водоема
+        - id: heating
+          type: System.Boolean
+          description: Наличие отопления
+        - id: count_animal
+          type: System.Int32
+          description: Колличество животных в помещении
+      overload: ZooParc.Bl.Controler.ComplexController.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: ZooParc.Bl.Controler.ComplexController.SaveBinnary(System.String)
+      commentId: M:ZooParc.Bl.Controler.ComplexController.SaveBinnary(System.String)
+      language: CSharp
+      name:
+        CSharp: SaveBinnary(String)
+        VB: SaveBinnary(String)
+      nameWithType:
+        CSharp: ComplexController.SaveBinnary(String)
+        VB: ComplexController.SaveBinnary(String)
+      qualifiedName:
+        CSharp: ZooParc.Bl.Controler.ComplexController.SaveBinnary(System.String)
+        VB: ZooParc.Bl.Controler.ComplexController.SaveBinnary(System.String)
+      type: Method
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Controler
+      source:
+        id: SaveBinnary
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\ComplexController.cs
+        startLine: 67
+      summary: "\nСохранение в бинарном виде\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void SaveBinnary(string path)
+          VB: Public Sub SaveBinnary(path As String)
+        parameters:
+        - id: path
+          type: System.String
+          description: Путь
+      overload: ZooParc.Bl.Controler.ComplexController.SaveBinnary*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: ZooParc.Bl.Controler.ComplexController.SaveTxt(System.String)
+      commentId: M:ZooParc.Bl.Controler.ComplexController.SaveTxt(System.String)
+      language: CSharp
+      name:
+        CSharp: SaveTxt(String)
+        VB: SaveTxt(String)
+      nameWithType:
+        CSharp: ComplexController.SaveTxt(String)
+        VB: ComplexController.SaveTxt(String)
+      qualifiedName:
+        CSharp: ZooParc.Bl.Controler.ComplexController.SaveTxt(System.String)
+        VB: ZooParc.Bl.Controler.ComplexController.SaveTxt(System.String)
+      type: Method
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Controler
+      source:
+        id: SaveTxt
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\ComplexController.cs
+        startLine: 83
+      summary: "\nСохранение в текстовом виде\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void SaveTxt(string path)
+          VB: Public Sub SaveTxt(path As String)
+        parameters:
+        - id: path
+          type: System.String
+          description: ''
+      overload: ZooParc.Bl.Controler.ComplexController.SaveTxt*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: ZooParc.Bl.Controler.ComplexController.#ctor(System.String)
+      commentId: M:ZooParc.Bl.Controler.ComplexController.#ctor(System.String)
+      language: CSharp
+      name:
+        CSharp: ComplexController(String)
+        VB: ComplexController(String)
+      nameWithType:
+        CSharp: ComplexController.ComplexController(String)
+        VB: ComplexController.ComplexController(String)
+      qualifiedName:
+        CSharp: ZooParc.Bl.Controler.ComplexController.ComplexController(System.String)
+        VB: ZooParc.Bl.Controler.ComplexController.ComplexController(System.String)
+      type: Constructor
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Controler
+      source:
+        id: .ctor
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\ComplexController.cs
+        startLine: 97
+      summary: "\nСоздание комплекса\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public ComplexController(string path)
+          VB: Public Sub New(path As String)
+        parameters:
+        - id: path
+          type: System.String
+      overload: ZooParc.Bl.Controler.ComplexController.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: ZooParc.Bl.Controler.KindOfAnimalController
+    commentId: T:ZooParc.Bl.Controler.KindOfAnimalController
+    language: CSharp
+    name:
+      CSharp: KindOfAnimalController
+      VB: KindOfAnimalController
+    nameWithType:
+      CSharp: KindOfAnimalController
+      VB: KindOfAnimalController
+    qualifiedName:
+      CSharp: ZooParc.Bl.Controler.KindOfAnimalController
+      VB: ZooParc.Bl.Controler.KindOfAnimalController
+    type: Class
+    assemblies:
+    - ZooParc.Bl
+    namespace: ZooParc.Bl.Controler
+    source:
+      id: KindOfAnimalController
+      path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\KindOfAnimalController.cs
+      startLine: 14
+    summary: "\nВид животного\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class KindOfAnimalController
+        VB: Public Class KindOfAnimalController
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ZooParc.Bl.Controler.KindOfAnimalController.KindOfAnimal
+      commentId: P:ZooParc.Bl.Controler.KindOfAnimalController.KindOfAnimal
+      language: CSharp
+      name:
+        CSharp: KindOfAnimal
+        VB: KindOfAnimal
+      nameWithType:
+        CSharp: KindOfAnimalController.KindOfAnimal
+        VB: KindOfAnimalController.KindOfAnimal
+      qualifiedName:
+        CSharp: ZooParc.Bl.Controler.KindOfAnimalController.KindOfAnimal
+        VB: ZooParc.Bl.Controler.KindOfAnimalController.KindOfAnimal
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Controler
+      source:
+        id: KindOfAnimal
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\KindOfAnimalController.cs
+        startLine: 19
+      summary: "\nНазвание вида\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public KindOfAnimal KindOfAnimal { get; set; }
+          VB: Public Property KindOfAnimal As KindOfAnimal
+        parameters: []
+        return:
+          type: ZooParc.Bl.Model.KindOfAnimal
+      overload: ZooParc.Bl.Controler.KindOfAnimalController.KindOfAnimal*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: ZooParc.Bl.Controler.KindOfAnimalController.PathBin
+      commentId: P:ZooParc.Bl.Controler.KindOfAnimalController.PathBin
+      language: CSharp
+      name:
+        CSharp: PathBin
+        VB: PathBin
+      nameWithType:
+        CSharp: KindOfAnimalController.PathBin
+        VB: KindOfAnimalController.PathBin
+      qualifiedName:
+        CSharp: ZooParc.Bl.Controler.KindOfAnimalController.PathBin
+        VB: ZooParc.Bl.Controler.KindOfAnimalController.PathBin
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Controler
+      source:
+        id: PathBin
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\KindOfAnimalController.cs
+        startLine: 23
+      summary: "\nПуть бинарного файла\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string PathBin { get; set; }
+          VB: Public Property PathBin As String
+        parameters: []
+        return:
+          type: System.String
+      overload: ZooParc.Bl.Controler.KindOfAnimalController.PathBin*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: ZooParc.Bl.Controler.KindOfAnimalController.PathTxt
+      commentId: P:ZooParc.Bl.Controler.KindOfAnimalController.PathTxt
+      language: CSharp
+      name:
+        CSharp: PathTxt
+        VB: PathTxt
+      nameWithType:
+        CSharp: KindOfAnimalController.PathTxt
+        VB: KindOfAnimalController.PathTxt
+      qualifiedName:
+        CSharp: ZooParc.Bl.Controler.KindOfAnimalController.PathTxt
+        VB: ZooParc.Bl.Controler.KindOfAnimalController.PathTxt
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Controler
+      source:
+        id: PathTxt
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\KindOfAnimalController.cs
+        startLine: 27
+      summary: "\nПуть к текстовому файлу\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string PathTxt { get; set; }
+          VB: Public Property PathTxt As String
+        parameters: []
+        return:
+          type: System.String
+      overload: ZooParc.Bl.Controler.KindOfAnimalController.PathTxt*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: ZooParc.Bl.Controler.KindOfAnimalController.#ctor(System.String,System.String,System.Int32,System.String)
+      commentId: M:ZooParc.Bl.Controler.KindOfAnimalController.#ctor(System.String,System.String,System.Int32,System.String)
+      language: CSharp
+      name:
+        CSharp: KindOfAnimalController(String, String, Int32, String)
+        VB: KindOfAnimalController(String, String, Int32, String)
+      nameWithType:
+        CSharp: KindOfAnimalController.KindOfAnimalController(String, String, Int32, String)
+        VB: KindOfAnimalController.KindOfAnimalController(String, String, Int32, String)
+      qualifiedName:
+        CSharp: ZooParc.Bl.Controler.KindOfAnimalController.KindOfAnimalController(System.String, System.String, System.Int32, System.String)
+        VB: ZooParc.Bl.Controler.KindOfAnimalController.KindOfAnimalController(System.String, System.String, System.Int32, System.String)
+      type: Constructor
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Controler
+      source:
+        id: .ctor
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\KindOfAnimalController.cs
+        startLine: 35
+      summary: "\nСоздание вида животного\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public KindOfAnimalController(string name_kind, string name_famaly, int number_of_animals, string continent)
+          VB: Public Sub New(name_kind As String, name_famaly As String, number_of_animals As Integer, continent As String)
+        parameters:
+        - id: name_kind
+          type: System.String
+          description: Название вида
+        - id: name_famaly
+          type: System.String
+          description: Название семейства
+        - id: number_of_animals
+          type: System.Int32
+          description: Численность
+        - id: continent
+          type: System.String
+          description: Континент
+      overload: ZooParc.Bl.Controler.KindOfAnimalController.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: ZooParc.Bl.Controler.KindOfAnimalController.#ctor(System.String)
+      commentId: M:ZooParc.Bl.Controler.KindOfAnimalController.#ctor(System.String)
+      language: CSharp
+      name:
+        CSharp: KindOfAnimalController(String)
+        VB: KindOfAnimalController(String)
+      nameWithType:
+        CSharp: KindOfAnimalController.KindOfAnimalController(String)
+        VB: KindOfAnimalController.KindOfAnimalController(String)
+      qualifiedName:
+        CSharp: ZooParc.Bl.Controler.KindOfAnimalController.KindOfAnimalController(System.String)
+        VB: ZooParc.Bl.Controler.KindOfAnimalController.KindOfAnimalController(System.String)
+      type: Constructor
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Controler
+      source:
+        id: .ctor
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\KindOfAnimalController.cs
+        startLine: 64
+      summary: "\nСоздание вида животного с помощью чтения бинарного файла \n"
+      example: []
+      syntax:
+        content:
+          CSharp: public KindOfAnimalController(string path)
+          VB: Public Sub New(path As String)
+        parameters:
+        - id: path
+          type: System.String
+          description: ''
+      overload: ZooParc.Bl.Controler.KindOfAnimalController.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: ZooParc.Bl.Controler.KindOfAnimalController.SaveBinnary(System.String)
+      commentId: M:ZooParc.Bl.Controler.KindOfAnimalController.SaveBinnary(System.String)
+      language: CSharp
+      name:
+        CSharp: SaveBinnary(String)
+        VB: SaveBinnary(String)
+      nameWithType:
+        CSharp: KindOfAnimalController.SaveBinnary(String)
+        VB: KindOfAnimalController.SaveBinnary(String)
+      qualifiedName:
+        CSharp: ZooParc.Bl.Controler.KindOfAnimalController.SaveBinnary(System.String)
+        VB: ZooParc.Bl.Controler.KindOfAnimalController.SaveBinnary(System.String)
+      type: Method
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Controler
+      source:
+        id: SaveBinnary
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\KindOfAnimalController.cs
+        startLine: 85
+      summary: "\nСохранение в бинарном виде\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void SaveBinnary(string path)
+          VB: Public Sub SaveBinnary(path As String)
+        parameters:
+        - id: path
+          type: System.String
+          description: Путь
+      overload: ZooParc.Bl.Controler.KindOfAnimalController.SaveBinnary*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: ZooParc.Bl.Controler.KindOfAnimalController.SaveTxt(System.String)
+      commentId: M:ZooParc.Bl.Controler.KindOfAnimalController.SaveTxt(System.String)
+      language: CSharp
+      name:
+        CSharp: SaveTxt(String)
+        VB: SaveTxt(String)
+      nameWithType:
+        CSharp: KindOfAnimalController.SaveTxt(String)
+        VB: KindOfAnimalController.SaveTxt(String)
+      qualifiedName:
+        CSharp: ZooParc.Bl.Controler.KindOfAnimalController.SaveTxt(System.String)
+        VB: ZooParc.Bl.Controler.KindOfAnimalController.SaveTxt(System.String)
+      type: Method
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Controler
+      source:
+        id: SaveTxt
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\KindOfAnimalController.cs
+        startLine: 100
+      summary: "\nСохранение в текстовом виде\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void SaveTxt(string path)
+          VB: Public Sub SaveTxt(path As String)
+        parameters:
+        - id: path
+          type: System.String
+          description: ''
+      overload: ZooParc.Bl.Controler.KindOfAnimalController.SaveTxt*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: ZooParc.Bl.Controler.SaveKindAnimal
+    commentId: T:ZooParc.Bl.Controler.SaveKindAnimal
+    language: CSharp
+    name:
+      CSharp: SaveKindAnimal
+      VB: SaveKindAnimal
+    nameWithType:
+      CSharp: SaveKindAnimal
+      VB: SaveKindAnimal
+    qualifiedName:
+      CSharp: ZooParc.Bl.Controler.SaveKindAnimal
+      VB: ZooParc.Bl.Controler.SaveKindAnimal
+    type: Class
+    assemblies:
+    - ZooParc.Bl
+    namespace: ZooParc.Bl.Controler
+    source:
+      id: SaveKindAnimal
+      path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\SaveKindAnimal.cs
+      startLine: 10
+    summary: "\nСохранение вида животного\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class SaveKindAnimal
+        VB: Public Class SaveKindAnimal
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal
+      commentId: P:ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal
+      language: CSharp
+      name:
+        CSharp: KindOfAnimal
+        VB: KindOfAnimal
+      nameWithType:
+        CSharp: SaveKindAnimal.KindOfAnimal
+        VB: SaveKindAnimal.KindOfAnimal
+      qualifiedName:
+        CSharp: ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal
+        VB: ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Controler
+      source:
+        id: KindOfAnimal
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\SaveKindAnimal.cs
+        startLine: 15
+      summary: "\nВид животного\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public KindOfAnimal KindOfAnimal { get; set; }
+          VB: Public Property KindOfAnimal As KindOfAnimal
+        parameters: []
+        return:
+          type: ZooParc.Bl.Model.KindOfAnimal
+      overload: ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: ZooParc.Bl.Controler.SaveKindAnimal.#ctor(ZooParc.Bl.Model.KindOfAnimal)
+      commentId: M:ZooParc.Bl.Controler.SaveKindAnimal.#ctor(ZooParc.Bl.Model.KindOfAnimal)
+      language: CSharp
+      name:
+        CSharp: SaveKindAnimal(KindOfAnimal)
+        VB: SaveKindAnimal(KindOfAnimal)
+      nameWithType:
+        CSharp: SaveKindAnimal.SaveKindAnimal(KindOfAnimal)
+        VB: SaveKindAnimal.SaveKindAnimal(KindOfAnimal)
+      qualifiedName:
+        CSharp: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindAnimal(ZooParc.Bl.Model.KindOfAnimal)
+        VB: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindAnimal(ZooParc.Bl.Model.KindOfAnimal)
+      type: Constructor
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Controler
+      source:
+        id: .ctor
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\SaveKindAnimal.cs
+        startLine: 21
+      summary: "\nКонструктор\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public SaveKindAnimal(KindOfAnimal kindOfAnimal)
+          VB: Public Sub New(kindOfAnimal As KindOfAnimal)
+        parameters:
+        - id: kindOfAnimal
+          type: ZooParc.Bl.Model.KindOfAnimal
+          description: Вид животного
+      overload: ZooParc.Bl.Controler.SaveKindAnimal.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary(System.String)
+      commentId: M:ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary(System.String)
+      language: CSharp
+      name:
+        CSharp: SaveKindOfAnimalBinnary(String)
+        VB: SaveKindOfAnimalBinnary(String)
+      nameWithType:
+        CSharp: SaveKindAnimal.SaveKindOfAnimalBinnary(String)
+        VB: SaveKindAnimal.SaveKindOfAnimalBinnary(String)
+      qualifiedName:
+        CSharp: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary(System.String)
+        VB: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary(System.String)
+      type: Method
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Controler
+      source:
+        id: SaveKindOfAnimalBinnary
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\SaveKindAnimal.cs
+        startLine: 30
+      summary: "\nСохранение в бинарном виде\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void SaveKindOfAnimalBinnary(string path)
+          VB: Public Sub SaveKindOfAnimalBinnary(path As String)
+        parameters:
+        - id: path
+          type: System.String
+          description: Путь
+      overload: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt(System.String)
+      commentId: M:ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt(System.String)
+      language: CSharp
+      name:
+        CSharp: SaveKindOfAnimalTxt(String)
+        VB: SaveKindOfAnimalTxt(String)
+      nameWithType:
+        CSharp: SaveKindAnimal.SaveKindOfAnimalTxt(String)
+        VB: SaveKindAnimal.SaveKindOfAnimalTxt(String)
+      qualifiedName:
+        CSharp: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt(System.String)
+        VB: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt(System.String)
+      type: Method
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Controler
+      source:
+        id: SaveKindOfAnimalTxt
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\SaveKindAnimal.cs
+        startLine: 42
+      summary: "\nСохранение в текстовом виде\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void SaveKindOfAnimalTxt(string path)
+          VB: Public Sub SaveKindOfAnimalTxt(path As String)
+        parameters:
+        - id: path
+          type: System.String
+          description: Путь
+      overload: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+- id: ZooParc.Bl.Model
+  commentId: N:ZooParc.Bl.Model
+  language: CSharp
+  name:
+    CSharp: ZooParc.Bl.Model
+    VB: ZooParc.Bl.Model
+  nameWithType:
+    CSharp: ZooParc.Bl.Model
+    VB: ZooParc.Bl.Model
+  qualifiedName:
+    CSharp: ZooParc.Bl.Model
+    VB: ZooParc.Bl.Model
+  type: Namespace
+  assemblies:
+  - ZooParc.Bl
+  modifiers: {}
+  items:
+  - id: ZooParc.Bl.Model.AnimalFamily
+    commentId: T:ZooParc.Bl.Model.AnimalFamily
+    language: CSharp
+    name:
+      CSharp: AnimalFamily
+      VB: AnimalFamily
+    nameWithType:
+      CSharp: AnimalFamily
+      VB: AnimalFamily
+    qualifiedName:
+      CSharp: ZooParc.Bl.Model.AnimalFamily
+      VB: ZooParc.Bl.Model.AnimalFamily
+    type: Class
+    assemblies:
+    - ZooParc.Bl
+    namespace: ZooParc.Bl.Model
+    source:
+      id: AnimalFamily
+      path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Model\AnimalFamily.cs
+      startLine: 5
+    syntax:
+      content:
+        CSharp: >-
+          [Serializable]
+
+          public class AnimalFamily
+        VB: >-
+          <Serializable>
+
+          Public Class AnimalFamily
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    attributes:
+    - type: System.SerializableAttribute
+      ctor: System.SerializableAttribute.#ctor
+      arguments: []
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ZooParc.Bl.Model.AnimalFamily.Name_famaly
+      commentId: P:ZooParc.Bl.Model.AnimalFamily.Name_famaly
+      language: CSharp
+      name:
+        CSharp: Name_famaly
+        VB: Name_famaly
+      nameWithType:
+        CSharp: AnimalFamily.Name_famaly
+        VB: AnimalFamily.Name_famaly
+      qualifiedName:
+        CSharp: ZooParc.Bl.Model.AnimalFamily.Name_famaly
+        VB: ZooParc.Bl.Model.AnimalFamily.Name_famaly
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Model
+      source:
+        id: Name_famaly
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Model\AnimalFamily.cs
+        startLine: 14
+      summary: "\nНазвание семейства.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string Name_famaly { get; set; }
+          VB: Public Property Name_famaly As String
+        parameters: []
+        return:
+          type: System.String
+      overload: ZooParc.Bl.Model.AnimalFamily.Name_famaly*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: ZooParc.Bl.Model.AnimalFamily.Count_animal
+      commentId: P:ZooParc.Bl.Model.AnimalFamily.Count_animal
+      language: CSharp
+      name:
+        CSharp: Count_animal
+        VB: Count_animal
+      nameWithType:
+        CSharp: AnimalFamily.Count_animal
+        VB: AnimalFamily.Count_animal
+      qualifiedName:
+        CSharp: ZooParc.Bl.Model.AnimalFamily.Count_animal
+        VB: ZooParc.Bl.Model.AnimalFamily.Count_animal
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Model
+      source:
+        id: Count_animal
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Model\AnimalFamily.cs
+        startLine: 18
+      summary: "\nЧисленность.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public int Count_animal { get; set; }
+          VB: Public Property Count_animal As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: ZooParc.Bl.Model.AnimalFamily.Count_animal*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: ZooParc.Bl.Model.AnimalFamily.#ctor(System.String,System.Int32)
+      commentId: M:ZooParc.Bl.Model.AnimalFamily.#ctor(System.String,System.Int32)
+      language: CSharp
+      name:
+        CSharp: AnimalFamily(String, Int32)
+        VB: AnimalFamily(String, Int32)
+      nameWithType:
+        CSharp: AnimalFamily.AnimalFamily(String, Int32)
+        VB: AnimalFamily.AnimalFamily(String, Int32)
+      qualifiedName:
+        CSharp: ZooParc.Bl.Model.AnimalFamily.AnimalFamily(System.String, System.Int32)
+        VB: ZooParc.Bl.Model.AnimalFamily.AnimalFamily(System.String, System.Int32)
+      type: Constructor
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Model
+      source:
+        id: .ctor
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Model\AnimalFamily.cs
+        startLine: 24
+      summary: "\nСоздание семейства.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public AnimalFamily(string name, int count_animal)
+          VB: Public Sub New(name As String, count_animal As Integer)
+        parameters:
+        - id: name
+          type: System.String
+          description: Название семейства
+        - id: count_animal
+          type: System.Int32
+          description: Численность
+      overload: ZooParc.Bl.Model.AnimalFamily.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: ZooParc.Bl.Model.Complex
+    commentId: T:ZooParc.Bl.Model.Complex
+    language: CSharp
+    name:
+      CSharp: Complex
+      VB: Complex
+    nameWithType:
+      CSharp: Complex
+      VB: Complex
+    qualifiedName:
+      CSharp: ZooParc.Bl.Model.Complex
+      VB: ZooParc.Bl.Model.Complex
+    type: Class
+    assemblies:
+    - ZooParc.Bl
+    namespace: ZooParc.Bl.Model
+    source:
+      id: Complex
+      path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Model\Complex.cs
+      startLine: 8
+    summary: "\nКомплекс\n"
+    example: []
+    syntax:
+      content:
+        CSharp: >-
+          [Serializable]
+
+          public class Complex
+        VB: >-
+          <Serializable>
+
+          Public Class Complex
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    attributes:
+    - type: System.SerializableAttribute
+      ctor: System.SerializableAttribute.#ctor
+      arguments: []
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ZooParc.Bl.Model.Complex.Name_complex
+      commentId: P:ZooParc.Bl.Model.Complex.Name_complex
+      language: CSharp
+      name:
+        CSharp: Name_complex
+        VB: Name_complex
+      nameWithType:
+        CSharp: Complex.Name_complex
+        VB: Complex.Name_complex
+      qualifiedName:
+        CSharp: ZooParc.Bl.Model.Complex.Name_complex
+        VB: ZooParc.Bl.Model.Complex.Name_complex
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Model
+      source:
+        id: Name_complex
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Model\Complex.cs
+        startLine: 15
+      summary: "\nНазвание комплекса.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string Name_complex { get; }
+          VB: Public ReadOnly Property Name_complex As String
+        parameters: []
+        return:
+          type: System.String
+      overload: ZooParc.Bl.Model.Complex.Name_complex*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: ZooParc.Bl.Model.Complex.Number_room
+      commentId: P:ZooParc.Bl.Model.Complex.Number_room
+      language: CSharp
+      name:
+        CSharp: Number_room
+        VB: Number_room
+      nameWithType:
+        CSharp: Complex.Number_room
+        VB: Complex.Number_room
+      qualifiedName:
+        CSharp: ZooParc.Bl.Model.Complex.Number_room
+        VB: ZooParc.Bl.Model.Complex.Number_room
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Model
+      source:
+        id: Number_room
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Model\Complex.cs
+        startLine: 19
+      summary: "\nНомер помещения.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public int Number_room { get; }
+          VB: Public ReadOnly Property Number_room As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: ZooParc.Bl.Model.Complex.Number_room*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: ZooParc.Bl.Model.Complex.Water
+      commentId: P:ZooParc.Bl.Model.Complex.Water
+      language: CSharp
+      name:
+        CSharp: Water
+        VB: Water
+      nameWithType:
+        CSharp: Complex.Water
+        VB: Complex.Water
+      qualifiedName:
+        CSharp: ZooParc.Bl.Model.Complex.Water
+        VB: ZooParc.Bl.Model.Complex.Water
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Model
+      source:
+        id: Water
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Model\Complex.cs
+        startLine: 23
+      summary: "\nНаличие водоема.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public bool Water { get; set; }
+          VB: Public Property Water As Boolean
+        parameters: []
+        return:
+          type: System.Boolean
+      overload: ZooParc.Bl.Model.Complex.Water*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: ZooParc.Bl.Model.Complex.Heating
+      commentId: P:ZooParc.Bl.Model.Complex.Heating
+      language: CSharp
+      name:
+        CSharp: Heating
+        VB: Heating
+      nameWithType:
+        CSharp: Complex.Heating
+        VB: Complex.Heating
+      qualifiedName:
+        CSharp: ZooParc.Bl.Model.Complex.Heating
+        VB: ZooParc.Bl.Model.Complex.Heating
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Model
+      source:
+        id: Heating
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Model\Complex.cs
+        startLine: 27
+      summary: "\nНаличие отопления. \n"
+      example: []
+      syntax:
+        content:
+          CSharp: public bool Heating { get; set; }
+          VB: Public Property Heating As Boolean
+        parameters: []
+        return:
+          type: System.Boolean
+      overload: ZooParc.Bl.Model.Complex.Heating*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: ZooParc.Bl.Model.Complex.Count_animal
+      commentId: P:ZooParc.Bl.Model.Complex.Count_animal
+      language: CSharp
+      name:
+        CSharp: Count_animal
+        VB: Count_animal
+      nameWithType:
+        CSharp: Complex.Count_animal
+        VB: Complex.Count_animal
+      qualifiedName:
+        CSharp: ZooParc.Bl.Model.Complex.Count_animal
+        VB: ZooParc.Bl.Model.Complex.Count_animal
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Model
+      source:
+        id: Count_animal
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Model\Complex.cs
+        startLine: 31
+      summary: "\nКолличество животных в помещении\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public int Count_animal { get; set; }
+          VB: Public Property Count_animal As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: ZooParc.Bl.Model.Complex.Count_animal*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: ZooParc.Bl.Model.Complex.#ctor(System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)
+      commentId: M:ZooParc.Bl.Model.Complex.#ctor(System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)
+      language: CSharp
+      name:
+        CSharp: Complex(String, Int32, Boolean, Boolean, Int32)
+        VB: Complex(String, Int32, Boolean, Boolean, Int32)
+      nameWithType:
+        CSharp: Complex.Complex(String, Int32, Boolean, Boolean, Int32)
+        VB: Complex.Complex(String, Int32, Boolean, Boolean, Int32)
+      qualifiedName:
+        CSharp: ZooParc.Bl.Model.Complex.Complex(System.String, System.Int32, System.Boolean, System.Boolean, System.Int32)
+        VB: ZooParc.Bl.Model.Complex.Complex(System.String, System.Int32, System.Boolean, System.Boolean, System.Int32)
+      type: Constructor
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Model
+      source:
+        id: .ctor
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Model\Complex.cs
+        startLine: 40
+      summary: "\nСоздание комалекса\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Complex(string name_complex, int number_room, bool water, bool heating, int count_animal)
+          VB: Public Sub New(name_complex As String, number_room As Integer, water As Boolean, heating As Boolean, count_animal As Integer)
+        parameters:
+        - id: name_complex
+          type: System.String
+          description: Название комплекса
+        - id: number_room
+          type: System.Int32
+          description: Номер помещения
+        - id: water
+          type: System.Boolean
+          description: Наличие водоема
+        - id: heating
+          type: System.Boolean
+          description: Наличие отопления
+        - id: count_animal
+          type: System.Int32
+          description: Колличество животных в помещении
+      overload: ZooParc.Bl.Model.Complex.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: ZooParc.Bl.Model.KindOfAnimal
+    commentId: T:ZooParc.Bl.Model.KindOfAnimal
+    language: CSharp
+    name:
+      CSharp: KindOfAnimal
+      VB: KindOfAnimal
+    nameWithType:
+      CSharp: KindOfAnimal
+      VB: KindOfAnimal
+    qualifiedName:
+      CSharp: ZooParc.Bl.Model.KindOfAnimal
+      VB: ZooParc.Bl.Model.KindOfAnimal
+    type: Class
+    assemblies:
+    - ZooParc.Bl
+    namespace: ZooParc.Bl.Model
+    source:
+      id: KindOfAnimal
+      path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Model\KindOfAnimal.cs
+      startLine: 5
+    syntax:
+      content:
+        CSharp: >-
+          [Serializable]
+
+          public class KindOfAnimal
+        VB: >-
+          <Serializable>
+
+          Public Class KindOfAnimal
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    attributes:
+    - type: System.SerializableAttribute
+      ctor: System.SerializableAttribute.#ctor
+      arguments: []
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ZooParc.Bl.Model.KindOfAnimal.Name_kind
+      commentId: P:ZooParc.Bl.Model.KindOfAnimal.Name_kind
+      language: CSharp
+      name:
+        CSharp: Name_kind
+        VB: Name_kind
+      nameWithType:
+        CSharp: KindOfAnimal.Name_kind
+        VB: KindOfAnimal.Name_kind
+      qualifiedName:
+        CSharp: ZooParc.Bl.Model.KindOfAnimal.Name_kind
+        VB: ZooParc.Bl.Model.KindOfAnimal.Name_kind
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Model
+      source:
+        id: Name_kind
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Model\KindOfAnimal.cs
+        startLine: 14
+      summary: "\nНазвание вида\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string Name_kind { get; set; }
+          VB: Public Property Name_kind As String
+        parameters: []
+        return:
+          type: System.String
+      overload: ZooParc.Bl.Model.KindOfAnimal.Name_kind*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: ZooParc.Bl.Model.KindOfAnimal.dailyFeedIntake
+      commentId: P:ZooParc.Bl.Model.KindOfAnimal.dailyFeedIntake
+      language: CSharp
+      name:
+        CSharp: dailyFeedIntake
+        VB: dailyFeedIntake
+      nameWithType:
+        CSharp: KindOfAnimal.dailyFeedIntake
+        VB: KindOfAnimal.dailyFeedIntake
+      qualifiedName:
+        CSharp: ZooParc.Bl.Model.KindOfAnimal.dailyFeedIntake
+        VB: ZooParc.Bl.Model.KindOfAnimal.dailyFeedIntake
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Model
+      source:
+        id: dailyFeedIntake
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Model\KindOfAnimal.cs
+        startLine: 19
+      summary: "\nСуточное потребление корма\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public double dailyFeedIntake { get; set; }
+          VB: Public Property dailyFeedIntake As Double
+        parameters: []
+        return:
+          type: System.Double
+      overload: ZooParc.Bl.Model.KindOfAnimal.dailyFeedIntake*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: ZooParc.Bl.Model.KindOfAnimal.AnimalFamily
+      commentId: P:ZooParc.Bl.Model.KindOfAnimal.AnimalFamily
+      language: CSharp
+      name:
+        CSharp: AnimalFamily
+        VB: AnimalFamily
+      nameWithType:
+        CSharp: KindOfAnimal.AnimalFamily
+        VB: KindOfAnimal.AnimalFamily
+      qualifiedName:
+        CSharp: ZooParc.Bl.Model.KindOfAnimal.AnimalFamily
+        VB: ZooParc.Bl.Model.KindOfAnimal.AnimalFamily
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Model
+      source:
+        id: AnimalFamily
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Model\KindOfAnimal.cs
+        startLine: 24
+      summary: "\nНазвание симейства\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public AnimalFamily AnimalFamily { get; set; }
+          VB: Public Property AnimalFamily As AnimalFamily
+        parameters: []
+        return:
+          type: ZooParc.Bl.Model.AnimalFamily
+      overload: ZooParc.Bl.Model.KindOfAnimal.AnimalFamily*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: ZooParc.Bl.Model.KindOfAnimal.Continent
+      commentId: P:ZooParc.Bl.Model.KindOfAnimal.Continent
+      language: CSharp
+      name:
+        CSharp: Continent
+        VB: Continent
+      nameWithType:
+        CSharp: KindOfAnimal.Continent
+        VB: KindOfAnimal.Continent
+      qualifiedName:
+        CSharp: ZooParc.Bl.Model.KindOfAnimal.Continent
+        VB: ZooParc.Bl.Model.KindOfAnimal.Continent
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Model
+      source:
+        id: Continent
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Model\KindOfAnimal.cs
+        startLine: 28
+      summary: "\nКонтинент обитания\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string Continent { get; set; }
+          VB: Public Property Continent As String
+        parameters: []
+        return:
+          type: System.String
+      overload: ZooParc.Bl.Model.KindOfAnimal.Continent*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: ZooParc.Bl.Model.KindOfAnimal.#ctor(System.String,ZooParc.Bl.Model.AnimalFamily,System.String)
+      commentId: M:ZooParc.Bl.Model.KindOfAnimal.#ctor(System.String,ZooParc.Bl.Model.AnimalFamily,System.String)
+      language: CSharp
+      name:
+        CSharp: KindOfAnimal(String, AnimalFamily, String)
+        VB: KindOfAnimal(String, AnimalFamily, String)
+      nameWithType:
+        CSharp: KindOfAnimal.KindOfAnimal(String, AnimalFamily, String)
+        VB: KindOfAnimal.KindOfAnimal(String, AnimalFamily, String)
+      qualifiedName:
+        CSharp: ZooParc.Bl.Model.KindOfAnimal.KindOfAnimal(System.String, ZooParc.Bl.Model.AnimalFamily, System.String)
+        VB: ZooParc.Bl.Model.KindOfAnimal.KindOfAnimal(System.String, ZooParc.Bl.Model.AnimalFamily, System.String)
+      type: Constructor
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Model
+      source:
+        id: .ctor
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Model\KindOfAnimal.cs
+        startLine: 35
+      summary: "\nСоздание вида животного\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public KindOfAnimal(string name_kind, AnimalFamily animalFamily, string continent)
+          VB: Public Sub New(name_kind As String, animalFamily As AnimalFamily, continent As String)
+        parameters:
+        - id: name_kind
+          type: System.String
+          description: Название вида
+        - id: animalFamily
+          type: ZooParc.Bl.Model.AnimalFamily
+          description: Названия семейства
+        - id: continent
+          type: System.String
+          description: Континент обитания
+      overload: ZooParc.Bl.Model.KindOfAnimal.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: ZooParc.Bl.Model.SaveComplex
+    commentId: T:ZooParc.Bl.Model.SaveComplex
+    language: CSharp
+    name:
+      CSharp: SaveComplex
+      VB: SaveComplex
+    nameWithType:
+      CSharp: SaveComplex
+      VB: SaveComplex
+    qualifiedName:
+      CSharp: ZooParc.Bl.Model.SaveComplex
+      VB: ZooParc.Bl.Model.SaveComplex
+    type: Class
+    assemblies:
+    - ZooParc.Bl
+    namespace: ZooParc.Bl.Model
+    source:
+      id: SaveComplex
+      path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\SaveComplex.cs
+      startLine: 10
+    summary: "\nСохранение данных комплекса\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class SaveComplex
+        VB: Public Class SaveComplex
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ZooParc.Bl.Model.SaveComplex.Complex
+      commentId: P:ZooParc.Bl.Model.SaveComplex.Complex
+      language: CSharp
+      name:
+        CSharp: Complex
+        VB: Complex
+      nameWithType:
+        CSharp: SaveComplex.Complex
+        VB: SaveComplex.Complex
+      qualifiedName:
+        CSharp: ZooParc.Bl.Model.SaveComplex.Complex
+        VB: ZooParc.Bl.Model.SaveComplex.Complex
+      type: Property
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Model
+      source:
+        id: Complex
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\SaveComplex.cs
+        startLine: 16
+      summary: "\nКомплекс\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Complex Complex { get; set; }
+          VB: Public Property Complex As Complex
+        parameters: []
+        return:
+          type: ZooParc.Bl.Model.Complex
+      overload: ZooParc.Bl.Model.SaveComplex.Complex*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: ZooParc.Bl.Model.SaveComplex.#ctor(ZooParc.Bl.Model.Complex)
+      commentId: M:ZooParc.Bl.Model.SaveComplex.#ctor(ZooParc.Bl.Model.Complex)
+      language: CSharp
+      name:
+        CSharp: SaveComplex(Complex)
+        VB: SaveComplex(Complex)
+      nameWithType:
+        CSharp: SaveComplex.SaveComplex(Complex)
+        VB: SaveComplex.SaveComplex(Complex)
+      qualifiedName:
+        CSharp: ZooParc.Bl.Model.SaveComplex.SaveComplex(ZooParc.Bl.Model.Complex)
+        VB: ZooParc.Bl.Model.SaveComplex.SaveComplex(ZooParc.Bl.Model.Complex)
+      type: Constructor
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Model
+      source:
+        id: .ctor
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\SaveComplex.cs
+        startLine: 21
+      summary: "\nКонструктор\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public SaveComplex(Complex complex)
+          VB: Public Sub New(complex As Complex)
+        parameters:
+        - id: complex
+          type: ZooParc.Bl.Model.Complex
+          description: Комплекс
+      overload: ZooParc.Bl.Model.SaveComplex.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: ZooParc.Bl.Model.SaveComplex.SaveComplexBinnary(System.String)
+      commentId: M:ZooParc.Bl.Model.SaveComplex.SaveComplexBinnary(System.String)
+      language: CSharp
+      name:
+        CSharp: SaveComplexBinnary(String)
+        VB: SaveComplexBinnary(String)
+      nameWithType:
+        CSharp: SaveComplex.SaveComplexBinnary(String)
+        VB: SaveComplex.SaveComplexBinnary(String)
+      qualifiedName:
+        CSharp: ZooParc.Bl.Model.SaveComplex.SaveComplexBinnary(System.String)
+        VB: ZooParc.Bl.Model.SaveComplex.SaveComplexBinnary(System.String)
+      type: Method
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Model
+      source:
+        id: SaveComplexBinnary
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\SaveComplex.cs
+        startLine: 30
+      summary: "\nСохранение в бинарном виде\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void SaveComplexBinnary(string path)
+          VB: Public Sub SaveComplexBinnary(path As String)
+        parameters:
+        - id: path
+          type: System.String
+          description: Путь
+      overload: ZooParc.Bl.Model.SaveComplex.SaveComplexBinnary*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: ZooParc.Bl.Model.SaveComplex.SaveComplexTxt(System.String)
+      commentId: M:ZooParc.Bl.Model.SaveComplex.SaveComplexTxt(System.String)
+      language: CSharp
+      name:
+        CSharp: SaveComplexTxt(String)
+        VB: SaveComplexTxt(String)
+      nameWithType:
+        CSharp: SaveComplex.SaveComplexTxt(String)
+        VB: SaveComplex.SaveComplexTxt(String)
+      qualifiedName:
+        CSharp: ZooParc.Bl.Model.SaveComplex.SaveComplexTxt(System.String)
+        VB: ZooParc.Bl.Model.SaveComplex.SaveComplexTxt(System.String)
+      type: Method
+      assemblies:
+      - ZooParc.Bl
+      namespace: ZooParc.Bl.Model
+      source:
+        id: SaveComplexTxt
+        path: C:\Users\Alex\source\repos\ZooParc\ZooParc.Bl\Controler\SaveComplex.cs
+        startLine: 43
+      summary: "\nСохранение в текстовом виде\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void SaveComplexTxt(string path)
+          VB: Public Sub SaveComplexTxt(path As String)
+        parameters:
+        - id: path
+          type: System.String
+          description: Путь
+      overload: ZooParc.Bl.Model.SaveComplex.SaveComplexTxt*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  ZooParc.Bl.Controler.ComplexController.PathBin*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.ComplexController.PathBin*
+        name: PathBin
+        nameWithType: ComplexController.PathBin
+        qualifiedName: ZooParc.Bl.Controler.ComplexController.PathBin
+      VB:
+      - id: ZooParc.Bl.Controler.ComplexController.PathBin*
+        name: PathBin
+        nameWithType: ComplexController.PathBin
+        qualifiedName: ZooParc.Bl.Controler.ComplexController.PathBin
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Controler.ComplexController.PathBin
+  ZooParc.Bl.Controler.ComplexController.PathTxt*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.ComplexController.PathTxt*
+        name: PathTxt
+        nameWithType: ComplexController.PathTxt
+        qualifiedName: ZooParc.Bl.Controler.ComplexController.PathTxt
+      VB:
+      - id: ZooParc.Bl.Controler.ComplexController.PathTxt*
+        name: PathTxt
+        nameWithType: ComplexController.PathTxt
+        qualifiedName: ZooParc.Bl.Controler.ComplexController.PathTxt
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Controler.ComplexController.PathTxt
+  ZooParc.Bl.Model:
+    name:
+      CSharp:
+      - name: ZooParc.Bl.Model
+        nameWithType: ZooParc.Bl.Model
+        qualifiedName: ZooParc.Bl.Model
+      VB:
+      - name: ZooParc.Bl.Model
+        nameWithType: ZooParc.Bl.Model
+        qualifiedName: ZooParc.Bl.Model
+    isDefinition: true
+    commentId: N:ZooParc.Bl.Model
+  ZooParc.Bl.Model.Complex:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.Complex
+        name: Complex
+        nameWithType: Complex
+        qualifiedName: ZooParc.Bl.Model.Complex
+      VB:
+      - id: ZooParc.Bl.Model.Complex
+        name: Complex
+        nameWithType: Complex
+        qualifiedName: ZooParc.Bl.Model.Complex
+    isDefinition: true
+    parent: ZooParc.Bl.Model
+    commentId: T:ZooParc.Bl.Model.Complex
+  ZooParc.Bl.Controler.ComplexController.Complex*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.ComplexController.Complex*
+        name: Complex
+        nameWithType: ComplexController.Complex
+        qualifiedName: ZooParc.Bl.Controler.ComplexController.Complex
+      VB:
+      - id: ZooParc.Bl.Controler.ComplexController.Complex*
+        name: Complex
+        nameWithType: ComplexController.Complex
+        qualifiedName: ZooParc.Bl.Controler.ComplexController.Complex
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Controler.ComplexController.Complex
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int32
+  System.Boolean:
+    name:
+      CSharp:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      VB:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Boolean
+  ZooParc.Bl.Controler.ComplexController.#ctor*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.ComplexController.#ctor*
+        name: ComplexController
+        nameWithType: ComplexController.ComplexController
+        qualifiedName: ZooParc.Bl.Controler.ComplexController.ComplexController
+      VB:
+      - id: ZooParc.Bl.Controler.ComplexController.#ctor*
+        name: ComplexController
+        nameWithType: ComplexController.ComplexController
+        qualifiedName: ZooParc.Bl.Controler.ComplexController.ComplexController
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Controler.ComplexController.#ctor
+  ZooParc.Bl.Controler.ComplexController.SaveBinnary*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.ComplexController.SaveBinnary*
+        name: SaveBinnary
+        nameWithType: ComplexController.SaveBinnary
+        qualifiedName: ZooParc.Bl.Controler.ComplexController.SaveBinnary
+      VB:
+      - id: ZooParc.Bl.Controler.ComplexController.SaveBinnary*
+        name: SaveBinnary
+        nameWithType: ComplexController.SaveBinnary
+        qualifiedName: ZooParc.Bl.Controler.ComplexController.SaveBinnary
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Controler.ComplexController.SaveBinnary
+  ZooParc.Bl.Controler.ComplexController.SaveTxt*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.ComplexController.SaveTxt*
+        name: SaveTxt
+        nameWithType: ComplexController.SaveTxt
+        qualifiedName: ZooParc.Bl.Controler.ComplexController.SaveTxt
+      VB:
+      - id: ZooParc.Bl.Controler.ComplexController.SaveTxt*
+        name: SaveTxt
+        nameWithType: ComplexController.SaveTxt
+        qualifiedName: ZooParc.Bl.Controler.ComplexController.SaveTxt
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Controler.ComplexController.SaveTxt
+  ZooParc.Bl.Controler.ComplexController:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.ComplexController
+        name: ComplexController
+        nameWithType: ComplexController
+        qualifiedName: ZooParc.Bl.Controler.ComplexController
+      VB:
+      - id: ZooParc.Bl.Controler.ComplexController
+        name: ComplexController
+        nameWithType: ComplexController
+        qualifiedName: ZooParc.Bl.Controler.ComplexController
+    isDefinition: true
+    commentId: T:ZooParc.Bl.Controler.ComplexController
+  ZooParc.Bl.Model.KindOfAnimal:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.KindOfAnimal
+        name: KindOfAnimal
+        nameWithType: KindOfAnimal
+        qualifiedName: ZooParc.Bl.Model.KindOfAnimal
+      VB:
+      - id: ZooParc.Bl.Model.KindOfAnimal
+        name: KindOfAnimal
+        nameWithType: KindOfAnimal
+        qualifiedName: ZooParc.Bl.Model.KindOfAnimal
+    isDefinition: true
+    parent: ZooParc.Bl.Model
+    commentId: T:ZooParc.Bl.Model.KindOfAnimal
+  ZooParc.Bl.Controler.KindOfAnimalController.KindOfAnimal*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.KindOfAnimalController.KindOfAnimal*
+        name: KindOfAnimal
+        nameWithType: KindOfAnimalController.KindOfAnimal
+        qualifiedName: ZooParc.Bl.Controler.KindOfAnimalController.KindOfAnimal
+      VB:
+      - id: ZooParc.Bl.Controler.KindOfAnimalController.KindOfAnimal*
+        name: KindOfAnimal
+        nameWithType: KindOfAnimalController.KindOfAnimal
+        qualifiedName: ZooParc.Bl.Controler.KindOfAnimalController.KindOfAnimal
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Controler.KindOfAnimalController.KindOfAnimal
+  ZooParc.Bl.Controler.KindOfAnimalController.PathBin*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.KindOfAnimalController.PathBin*
+        name: PathBin
+        nameWithType: KindOfAnimalController.PathBin
+        qualifiedName: ZooParc.Bl.Controler.KindOfAnimalController.PathBin
+      VB:
+      - id: ZooParc.Bl.Controler.KindOfAnimalController.PathBin*
+        name: PathBin
+        nameWithType: KindOfAnimalController.PathBin
+        qualifiedName: ZooParc.Bl.Controler.KindOfAnimalController.PathBin
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Controler.KindOfAnimalController.PathBin
+  ZooParc.Bl.Controler.KindOfAnimalController.PathTxt*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.KindOfAnimalController.PathTxt*
+        name: PathTxt
+        nameWithType: KindOfAnimalController.PathTxt
+        qualifiedName: ZooParc.Bl.Controler.KindOfAnimalController.PathTxt
+      VB:
+      - id: ZooParc.Bl.Controler.KindOfAnimalController.PathTxt*
+        name: PathTxt
+        nameWithType: KindOfAnimalController.PathTxt
+        qualifiedName: ZooParc.Bl.Controler.KindOfAnimalController.PathTxt
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Controler.KindOfAnimalController.PathTxt
+  ZooParc.Bl.Controler.KindOfAnimalController.#ctor*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.KindOfAnimalController.#ctor*
+        name: KindOfAnimalController
+        nameWithType: KindOfAnimalController.KindOfAnimalController
+        qualifiedName: ZooParc.Bl.Controler.KindOfAnimalController.KindOfAnimalController
+      VB:
+      - id: ZooParc.Bl.Controler.KindOfAnimalController.#ctor*
+        name: KindOfAnimalController
+        nameWithType: KindOfAnimalController.KindOfAnimalController
+        qualifiedName: ZooParc.Bl.Controler.KindOfAnimalController.KindOfAnimalController
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Controler.KindOfAnimalController.#ctor
+  ZooParc.Bl.Controler.KindOfAnimalController.SaveBinnary*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.KindOfAnimalController.SaveBinnary*
+        name: SaveBinnary
+        nameWithType: KindOfAnimalController.SaveBinnary
+        qualifiedName: ZooParc.Bl.Controler.KindOfAnimalController.SaveBinnary
+      VB:
+      - id: ZooParc.Bl.Controler.KindOfAnimalController.SaveBinnary*
+        name: SaveBinnary
+        nameWithType: KindOfAnimalController.SaveBinnary
+        qualifiedName: ZooParc.Bl.Controler.KindOfAnimalController.SaveBinnary
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Controler.KindOfAnimalController.SaveBinnary
+  ZooParc.Bl.Controler.KindOfAnimalController.SaveTxt*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.KindOfAnimalController.SaveTxt*
+        name: SaveTxt
+        nameWithType: KindOfAnimalController.SaveTxt
+        qualifiedName: ZooParc.Bl.Controler.KindOfAnimalController.SaveTxt
+      VB:
+      - id: ZooParc.Bl.Controler.KindOfAnimalController.SaveTxt*
+        name: SaveTxt
+        nameWithType: KindOfAnimalController.SaveTxt
+        qualifiedName: ZooParc.Bl.Controler.KindOfAnimalController.SaveTxt
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Controler.KindOfAnimalController.SaveTxt
+  ZooParc.Bl.Controler.KindOfAnimalController:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.KindOfAnimalController
+        name: KindOfAnimalController
+        nameWithType: KindOfAnimalController
+        qualifiedName: ZooParc.Bl.Controler.KindOfAnimalController
+      VB:
+      - id: ZooParc.Bl.Controler.KindOfAnimalController
+        name: KindOfAnimalController
+        nameWithType: KindOfAnimalController
+        qualifiedName: ZooParc.Bl.Controler.KindOfAnimalController
+    isDefinition: true
+    commentId: T:ZooParc.Bl.Controler.KindOfAnimalController
+  ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal*
+        name: KindOfAnimal
+        nameWithType: SaveKindAnimal.KindOfAnimal
+        qualifiedName: ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal
+      VB:
+      - id: ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal*
+        name: KindOfAnimal
+        nameWithType: SaveKindAnimal.KindOfAnimal
+        qualifiedName: ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Controler.SaveKindAnimal.KindOfAnimal
+  ZooParc.Bl.Controler.SaveKindAnimal.#ctor*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.SaveKindAnimal.#ctor*
+        name: SaveKindAnimal
+        nameWithType: SaveKindAnimal.SaveKindAnimal
+        qualifiedName: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindAnimal
+      VB:
+      - id: ZooParc.Bl.Controler.SaveKindAnimal.#ctor*
+        name: SaveKindAnimal
+        nameWithType: SaveKindAnimal.SaveKindAnimal
+        qualifiedName: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindAnimal
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Controler.SaveKindAnimal.#ctor
+  ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary*
+        name: SaveKindOfAnimalBinnary
+        nameWithType: SaveKindAnimal.SaveKindOfAnimalBinnary
+        qualifiedName: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary
+      VB:
+      - id: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary*
+        name: SaveKindOfAnimalBinnary
+        nameWithType: SaveKindAnimal.SaveKindOfAnimalBinnary
+        qualifiedName: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalBinnary
+  ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt*
+        name: SaveKindOfAnimalTxt
+        nameWithType: SaveKindAnimal.SaveKindOfAnimalTxt
+        qualifiedName: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt
+      VB:
+      - id: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt*
+        name: SaveKindOfAnimalTxt
+        nameWithType: SaveKindAnimal.SaveKindOfAnimalTxt
+        qualifiedName: ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Controler.SaveKindAnimal.SaveKindOfAnimalTxt
+  ZooParc.Bl.Controler.SaveKindAnimal:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Controler.SaveKindAnimal
+        name: SaveKindAnimal
+        nameWithType: SaveKindAnimal
+        qualifiedName: ZooParc.Bl.Controler.SaveKindAnimal
+      VB:
+      - id: ZooParc.Bl.Controler.SaveKindAnimal
+        name: SaveKindAnimal
+        nameWithType: SaveKindAnimal
+        qualifiedName: ZooParc.Bl.Controler.SaveKindAnimal
+    isDefinition: true
+    commentId: T:ZooParc.Bl.Controler.SaveKindAnimal
+  ZooParc.Bl.Controler:
+    name:
+      CSharp:
+      - name: ZooParc.Bl.Controler
+        nameWithType: ZooParc.Bl.Controler
+        qualifiedName: ZooParc.Bl.Controler
+      VB:
+      - name: ZooParc.Bl.Controler
+        nameWithType: ZooParc.Bl.Controler
+        qualifiedName: ZooParc.Bl.Controler
+    isDefinition: true
+    commentId: N:ZooParc.Bl.Controler
+  ZooParc.Bl.Model.AnimalFamily.Name_famaly*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.AnimalFamily.Name_famaly*
+        name: Name_famaly
+        nameWithType: AnimalFamily.Name_famaly
+        qualifiedName: ZooParc.Bl.Model.AnimalFamily.Name_famaly
+      VB:
+      - id: ZooParc.Bl.Model.AnimalFamily.Name_famaly*
+        name: Name_famaly
+        nameWithType: AnimalFamily.Name_famaly
+        qualifiedName: ZooParc.Bl.Model.AnimalFamily.Name_famaly
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Model.AnimalFamily.Name_famaly
+  ZooParc.Bl.Model.AnimalFamily.Count_animal*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.AnimalFamily.Count_animal*
+        name: Count_animal
+        nameWithType: AnimalFamily.Count_animal
+        qualifiedName: ZooParc.Bl.Model.AnimalFamily.Count_animal
+      VB:
+      - id: ZooParc.Bl.Model.AnimalFamily.Count_animal*
+        name: Count_animal
+        nameWithType: AnimalFamily.Count_animal
+        qualifiedName: ZooParc.Bl.Model.AnimalFamily.Count_animal
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Model.AnimalFamily.Count_animal
+  ZooParc.Bl.Model.AnimalFamily.#ctor*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.AnimalFamily.#ctor*
+        name: AnimalFamily
+        nameWithType: AnimalFamily.AnimalFamily
+        qualifiedName: ZooParc.Bl.Model.AnimalFamily.AnimalFamily
+      VB:
+      - id: ZooParc.Bl.Model.AnimalFamily.#ctor*
+        name: AnimalFamily
+        nameWithType: AnimalFamily.AnimalFamily
+        qualifiedName: ZooParc.Bl.Model.AnimalFamily.AnimalFamily
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Model.AnimalFamily.#ctor
+  ZooParc.Bl.Model.AnimalFamily:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.AnimalFamily
+        name: AnimalFamily
+        nameWithType: AnimalFamily
+        qualifiedName: ZooParc.Bl.Model.AnimalFamily
+      VB:
+      - id: ZooParc.Bl.Model.AnimalFamily
+        name: AnimalFamily
+        nameWithType: AnimalFamily
+        qualifiedName: ZooParc.Bl.Model.AnimalFamily
+    isDefinition: true
+    parent: ZooParc.Bl.Model
+    commentId: T:ZooParc.Bl.Model.AnimalFamily
+  System.SerializableAttribute:
+    name:
+      CSharp:
+      - id: System.SerializableAttribute
+        name: SerializableAttribute
+        nameWithType: SerializableAttribute
+        qualifiedName: System.SerializableAttribute
+        isExternal: true
+      VB:
+      - id: System.SerializableAttribute
+        name: SerializableAttribute
+        nameWithType: SerializableAttribute
+        qualifiedName: System.SerializableAttribute
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.SerializableAttribute
+  System.SerializableAttribute.#ctor:
+    name:
+      CSharp:
+      - id: System.SerializableAttribute.#ctor
+        name: SerializableAttribute
+        nameWithType: SerializableAttribute.SerializableAttribute
+        qualifiedName: System.SerializableAttribute.SerializableAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.SerializableAttribute.#ctor
+        name: SerializableAttribute
+        nameWithType: SerializableAttribute.SerializableAttribute
+        qualifiedName: System.SerializableAttribute.SerializableAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.SerializableAttribute
+    commentId: M:System.SerializableAttribute.#ctor
+  ZooParc.Bl.Model.Complex.Name_complex*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.Complex.Name_complex*
+        name: Name_complex
+        nameWithType: Complex.Name_complex
+        qualifiedName: ZooParc.Bl.Model.Complex.Name_complex
+      VB:
+      - id: ZooParc.Bl.Model.Complex.Name_complex*
+        name: Name_complex
+        nameWithType: Complex.Name_complex
+        qualifiedName: ZooParc.Bl.Model.Complex.Name_complex
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Model.Complex.Name_complex
+  ZooParc.Bl.Model.Complex.Number_room*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.Complex.Number_room*
+        name: Number_room
+        nameWithType: Complex.Number_room
+        qualifiedName: ZooParc.Bl.Model.Complex.Number_room
+      VB:
+      - id: ZooParc.Bl.Model.Complex.Number_room*
+        name: Number_room
+        nameWithType: Complex.Number_room
+        qualifiedName: ZooParc.Bl.Model.Complex.Number_room
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Model.Complex.Number_room
+  ZooParc.Bl.Model.Complex.Water*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.Complex.Water*
+        name: Water
+        nameWithType: Complex.Water
+        qualifiedName: ZooParc.Bl.Model.Complex.Water
+      VB:
+      - id: ZooParc.Bl.Model.Complex.Water*
+        name: Water
+        nameWithType: Complex.Water
+        qualifiedName: ZooParc.Bl.Model.Complex.Water
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Model.Complex.Water
+  ZooParc.Bl.Model.Complex.Heating*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.Complex.Heating*
+        name: Heating
+        nameWithType: Complex.Heating
+        qualifiedName: ZooParc.Bl.Model.Complex.Heating
+      VB:
+      - id: ZooParc.Bl.Model.Complex.Heating*
+        name: Heating
+        nameWithType: Complex.Heating
+        qualifiedName: ZooParc.Bl.Model.Complex.Heating
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Model.Complex.Heating
+  ZooParc.Bl.Model.Complex.Count_animal*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.Complex.Count_animal*
+        name: Count_animal
+        nameWithType: Complex.Count_animal
+        qualifiedName: ZooParc.Bl.Model.Complex.Count_animal
+      VB:
+      - id: ZooParc.Bl.Model.Complex.Count_animal*
+        name: Count_animal
+        nameWithType: Complex.Count_animal
+        qualifiedName: ZooParc.Bl.Model.Complex.Count_animal
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Model.Complex.Count_animal
+  ZooParc.Bl.Model.Complex.#ctor*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.Complex.#ctor*
+        name: Complex
+        nameWithType: Complex.Complex
+        qualifiedName: ZooParc.Bl.Model.Complex.Complex
+      VB:
+      - id: ZooParc.Bl.Model.Complex.#ctor*
+        name: Complex
+        nameWithType: Complex.Complex
+        qualifiedName: ZooParc.Bl.Model.Complex.Complex
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Model.Complex.#ctor
+  ZooParc.Bl.Model.KindOfAnimal.Name_kind*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.KindOfAnimal.Name_kind*
+        name: Name_kind
+        nameWithType: KindOfAnimal.Name_kind
+        qualifiedName: ZooParc.Bl.Model.KindOfAnimal.Name_kind
+      VB:
+      - id: ZooParc.Bl.Model.KindOfAnimal.Name_kind*
+        name: Name_kind
+        nameWithType: KindOfAnimal.Name_kind
+        qualifiedName: ZooParc.Bl.Model.KindOfAnimal.Name_kind
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Model.KindOfAnimal.Name_kind
+  System.Double:
+    name:
+      CSharp:
+      - id: System.Double
+        name: Double
+        nameWithType: Double
+        qualifiedName: System.Double
+        isExternal: true
+      VB:
+      - id: System.Double
+        name: Double
+        nameWithType: Double
+        qualifiedName: System.Double
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Double
+  ZooParc.Bl.Model.KindOfAnimal.dailyFeedIntake*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.KindOfAnimal.dailyFeedIntake*
+        name: dailyFeedIntake
+        nameWithType: KindOfAnimal.dailyFeedIntake
+        qualifiedName: ZooParc.Bl.Model.KindOfAnimal.dailyFeedIntake
+      VB:
+      - id: ZooParc.Bl.Model.KindOfAnimal.dailyFeedIntake*
+        name: dailyFeedIntake
+        nameWithType: KindOfAnimal.dailyFeedIntake
+        qualifiedName: ZooParc.Bl.Model.KindOfAnimal.dailyFeedIntake
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Model.KindOfAnimal.dailyFeedIntake
+  ZooParc.Bl.Model.KindOfAnimal.AnimalFamily*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.KindOfAnimal.AnimalFamily*
+        name: AnimalFamily
+        nameWithType: KindOfAnimal.AnimalFamily
+        qualifiedName: ZooParc.Bl.Model.KindOfAnimal.AnimalFamily
+      VB:
+      - id: ZooParc.Bl.Model.KindOfAnimal.AnimalFamily*
+        name: AnimalFamily
+        nameWithType: KindOfAnimal.AnimalFamily
+        qualifiedName: ZooParc.Bl.Model.KindOfAnimal.AnimalFamily
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Model.KindOfAnimal.AnimalFamily
+  ZooParc.Bl.Model.KindOfAnimal.Continent*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.KindOfAnimal.Continent*
+        name: Continent
+        nameWithType: KindOfAnimal.Continent
+        qualifiedName: ZooParc.Bl.Model.KindOfAnimal.Continent
+      VB:
+      - id: ZooParc.Bl.Model.KindOfAnimal.Continent*
+        name: Continent
+        nameWithType: KindOfAnimal.Continent
+        qualifiedName: ZooParc.Bl.Model.KindOfAnimal.Continent
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Model.KindOfAnimal.Continent
+  ZooParc.Bl.Model.KindOfAnimal.#ctor*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.KindOfAnimal.#ctor*
+        name: KindOfAnimal
+        nameWithType: KindOfAnimal.KindOfAnimal
+        qualifiedName: ZooParc.Bl.Model.KindOfAnimal.KindOfAnimal
+      VB:
+      - id: ZooParc.Bl.Model.KindOfAnimal.#ctor*
+        name: KindOfAnimal
+        nameWithType: KindOfAnimal.KindOfAnimal
+        qualifiedName: ZooParc.Bl.Model.KindOfAnimal.KindOfAnimal
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Model.KindOfAnimal.#ctor
+  ZooParc.Bl.Model.SaveComplex.Complex*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.SaveComplex.Complex*
+        name: Complex
+        nameWithType: SaveComplex.Complex
+        qualifiedName: ZooParc.Bl.Model.SaveComplex.Complex
+      VB:
+      - id: ZooParc.Bl.Model.SaveComplex.Complex*
+        name: Complex
+        nameWithType: SaveComplex.Complex
+        qualifiedName: ZooParc.Bl.Model.SaveComplex.Complex
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Model.SaveComplex.Complex
+  ZooParc.Bl.Model.SaveComplex.#ctor*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.SaveComplex.#ctor*
+        name: SaveComplex
+        nameWithType: SaveComplex.SaveComplex
+        qualifiedName: ZooParc.Bl.Model.SaveComplex.SaveComplex
+      VB:
+      - id: ZooParc.Bl.Model.SaveComplex.#ctor*
+        name: SaveComplex
+        nameWithType: SaveComplex.SaveComplex
+        qualifiedName: ZooParc.Bl.Model.SaveComplex.SaveComplex
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Model.SaveComplex.#ctor
+  ZooParc.Bl.Model.SaveComplex.SaveComplexBinnary*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.SaveComplex.SaveComplexBinnary*
+        name: SaveComplexBinnary
+        nameWithType: SaveComplex.SaveComplexBinnary
+        qualifiedName: ZooParc.Bl.Model.SaveComplex.SaveComplexBinnary
+      VB:
+      - id: ZooParc.Bl.Model.SaveComplex.SaveComplexBinnary*
+        name: SaveComplexBinnary
+        nameWithType: SaveComplex.SaveComplexBinnary
+        qualifiedName: ZooParc.Bl.Model.SaveComplex.SaveComplexBinnary
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Model.SaveComplex.SaveComplexBinnary
+  ZooParc.Bl.Model.SaveComplex.SaveComplexTxt*:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.SaveComplex.SaveComplexTxt*
+        name: SaveComplexTxt
+        nameWithType: SaveComplex.SaveComplexTxt
+        qualifiedName: ZooParc.Bl.Model.SaveComplex.SaveComplexTxt
+      VB:
+      - id: ZooParc.Bl.Model.SaveComplex.SaveComplexTxt*
+        name: SaveComplexTxt
+        nameWithType: SaveComplex.SaveComplexTxt
+        qualifiedName: ZooParc.Bl.Model.SaveComplex.SaveComplexTxt
+    isDefinition: true
+    commentId: Overload:ZooParc.Bl.Model.SaveComplex.SaveComplexTxt
+  ZooParc.Bl.Model.SaveComplex:
+    name:
+      CSharp:
+      - id: ZooParc.Bl.Model.SaveComplex
+        name: SaveComplex
+        nameWithType: SaveComplex
+        qualifiedName: ZooParc.Bl.Model.SaveComplex
+      VB:
+      - id: ZooParc.Bl.Model.SaveComplex
+        name: SaveComplex
+        nameWithType: SaveComplex
+        qualifiedName: ZooParc.Bl.Model.SaveComplex
+    isDefinition: true
+    commentId: T:ZooParc.Bl.Model.SaveComplex

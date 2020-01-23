@@ -1,0 +1,10 @@
+\\mac\home\Documents\Visual Studio 2017\Projects\Zoo\ZooParc\bin\Debug\ZooParc.exe.config
+\\mac\home\Documents\Visual Studio 2017\Projects\Zoo\ZooParc\bin\Debug\ZooParc.exe
+\\mac\home\Documents\Visual Studio 2017\Projects\Zoo\ZooParc\bin\Debug\ZooParc.pdb
+\\mac\home\Documents\Visual Studio 2017\Projects\Zoo\ZooParc\bin\Debug\Zooparc_Lib.dll
+\\mac\home\Documents\Visual Studio 2017\Projects\Zoo\ZooParc\bin\Debug\Zooparc_Lib.pdb
+\\mac\home\Documents\Visual Studio 2017\Projects\Zoo\ZooParc\obj\Debug\ZooParc.csprojAssemblyReference.cache
+\\mac\home\Documents\Visual Studio 2017\Projects\Zoo\ZooParc\obj\Debug\ZooParc.csproj.CoreCompileInputs.cache
+\\mac\home\Documents\Visual Studio 2017\Projects\Zoo\ZooParc\obj\Debug\ZooParc.csproj.CopyComplete
+\\mac\home\Documents\Visual Studio 2017\Projects\Zoo\ZooParc\obj\Debug\ZooParc.exe
+\\mac\home\Documents\Visual Studio 2017\Projects\Zoo\ZooParc\obj\Debug\ZooParc.pdb

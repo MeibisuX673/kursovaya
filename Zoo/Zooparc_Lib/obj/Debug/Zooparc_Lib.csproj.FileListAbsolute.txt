@@ -1,0 +1,6 @@
+\\mac\home\Documents\Visual Studio 2017\Projects\Zoo\Zooparc_Lib\bin\Debug\Zooparc_Lib.dll
+\\mac\home\Documents\Visual Studio 2017\Projects\Zoo\Zooparc_Lib\bin\Debug\Zooparc_Lib.pdb
+\\mac\home\Documents\Visual Studio 2017\Projects\Zoo\Zooparc_Lib\obj\Debug\Zooparc_Lib.csprojAssemblyReference.cache
+\\mac\home\Documents\Visual Studio 2017\Projects\Zoo\Zooparc_Lib\obj\Debug\Zooparc_Lib.csproj.CoreCompileInputs.cache
+\\mac\home\Documents\Visual Studio 2017\Projects\Zoo\Zooparc_Lib\obj\Debug\Zooparc_Lib.dll
+\\mac\home\Documents\Visual Studio 2017\Projects\Zoo\Zooparc_Lib\obj\Debug\Zooparc_Lib.pdb
